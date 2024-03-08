@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-247
+258
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
 **** PIPEERROR IN 202401021136215017.pdf --> 10
@@ -33,4 +33,238 @@ NotFound sakalmarathi 104
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202402261024316017.pdf --> para 202402261024316017.pdf:Page_idx: 2 1 <-> [(0, 1), (0, 2)]
-#docs: 247 #processed: 4
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403051440109017.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Replaced 1:269 >(mangal-cid:148)(mangal-cid:560)(mangal-cid:128)(mangal-cid:551)<  >4५१]<
+	Replaced 2:225 >(mangal-cid:148)(mangal-cid:560)(mangal-cid:128)(mangal-cid:551)<  >4५१]<
+	Replaced 3:47 >(mangal-cid:148)(mangal-cid:560)(mangal-cid:128)(mangal-cid:551)<  >4५१]<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051440109017.pdf: >शासन ननर्णय क्रमांक< >संकीर्ण-१०२४/प्र.क्र.१२५/आरोग्य-७<
+	elapsed_time:202403051440109017.pdf: 0.000082
+  exec_task: doc_translator_hf 
+    Paras: #75 Sentences: #0
+	[0]  #words: 262 #sentences: 51
+	After generate: 3 MB
+	[1]  #words: 266 #sentences: 23
+	After generate: 3 MB
+	[2]  #words: 139 #sentences: 12
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403051558472017.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Replaced 1:279 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >य oO<
+	Replaced 2:241 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >य oO<
+	Replaced 3:69 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >य oO<
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051558472017.pdf: >शासन निर्णय क्रमांक< >प्रशामा २०२३/प्र.क्र.५७/आरोग्य ३<
+	elapsed_time:202403051558472017.pdf: 0.000089
+  exec_task: doc_translator_hf 
+    Paras: #80 Sentences: #0
+	[0]  #words: 262 #sentences: 49
+	After generate: 3 MB
+	[1]  #words: 260 #sentences: 24
+	After generate: 3 MB
+	[2]  #words: 171 #sentences: 13
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403051559029117.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051559029117.pdf: >शासन निर्णय क्रमांक< >संकीर्ण-२०२४/प्र.क्र.४७/आरोग्य-३<
+	elapsed_time:202403051559029117.pdf: 0.000074
+  exec_task: doc_translator_hf 
+    Paras: #65 Sentences: #0
+	[0]  #words: 265 #sentences: 55
+	After generate: 4 MB
+	[1]  #words: 268 #sentences: 25
+	After generate: 4 MB
+	[2]  #words: 98 #sentences: 8
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403061253452617.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403061253452617.pdf: >शासन आदेश क्रमांक< >मवैअ-१०५४/प्र.क्र.२४१ (भाग-१)/सेवा-३<
+	elapsed_time:202403061253452617.pdf: 0.000075
+  exec_task: doc_translator_hf 
+    Paras: #29 Sentences: #0
+	[0]  #words: 254 #sentences: 36
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403061416242917.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Replaced 1:98 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >य oO<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 10: स्थापना-२०२२/प्र.क्र.१६७/आरोग्य-३ ==शासन निर्णय क्रमांकः स्थापना-२०२२/प्र.क्र.१६७/आरोग्य-३
+	extract_order_number:202403061416242917.pdf: >शासन निर्णय क्रमांक< >स्थापना-२०२२/प्र.क्र.१६७/आरोग्य-३<
+	elapsed_time:202403061416242917.pdf: 0.000693
+  exec_task: doc_translator_hf 
+    Paras: #19 Sentences: #0
+	[0]  #words: 137 #sentences: 20
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403061416302817.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Replaced 1:293 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >| 1 O<
+	Replaced 2:240 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >| 1 O<
+	Replaced 3:72 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >| 1 O<
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403061416302817.pdf: >शासन निर्णय क्रमांक< >प्रशामा २०२३/प्र.क्र.३००/आरोग्य ३<
+	elapsed_time:202403061416302817.pdf: 0.000100
+  exec_task: doc_translator_hf 
+    Paras: #83 Sentences: #0
+	[0]  #words: 262 #sentences: 53
+	After generate: 11 MB
+	[1]  #words: 257 #sentences: 25
+	After generate: 11 MB
+	[2]  #words: 224 #sentences: 17
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403061416393717.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Replaced 1:87 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >य oO<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 11: श्रेणीव २०२४/प्र.क्र. ३०/आरोग्य-३ ==शासन निर्णय क्रमांकः श्रेणीव २०२४/प्र.क्र. ३०/आरोग्य-३
+	extract_order_number:202403061416393717.pdf: >शासन निर्णय क्रमांक< >श्रेणीव २०२४/प्र.क्र. ३०/आरोग्य-३<
+	elapsed_time:202403061416393717.pdf: 0.000719
+  exec_task: doc_translator_hf 
+    Paras: #20 Sentences: #0
+	[0]  #words: 136 #sentences: 24
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071013387417.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Replaced 1:165 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >| ट्‌ SO<
+	Replaced 1:167 >(mangal-cid:148)(mangal-cid:560)(mangal-cid:128)(mangal-cid:551)<  >ANI<
+	Replaced 2:133 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)<  >| ट्‌ SO<
+	Replaced 2:135 >(mangal-cid:148)(mangal-cid:560)(mangal-cid:128)(mangal-cid:551)<  >ANI<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071013387417.pdf: >शासन निर्णय क्रमांक< >सिकल-५७२३/प्र.क्र.२७/आरोग्य-५<
+	elapsed_time:202403071013387417.pdf: 0.000087
+  exec_task: doc_translator_hf 
+    Paras: #19 Sentences: #53
+	[0]  #words: 142 #sentences: 53
+	After generate: 11 MB
+	[0]  #words: 88 #sentences: 20
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071028453617.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Tesseract on page: 5
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071028453617.pdf: >शासन निर्णय क्रमांक< >प्रशामा-२०२३/प्र.क्र.२०९/आरोग्य-३अ<
+	elapsed_time:202403071028453617.pdf: 0.000105
+  exec_task: doc_translator_hf 
+    Paras: #92 Sentences: #15
+	[0]  #words: 32 #sentences: 10
+	After generate: 11 MB
+	[0]  #words: 258 #sentences: 58
+	After generate: 11 MB
+	[1]  #words: 266 #sentences: 28
+	After generate: 11 MB
+	[2]  #words: 239 #sentences: 21
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071308528017.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:52 Errors=52 TableEmptyBodyCellError=52
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071308528017.pdf: >शासन निर्णय क्रमांक< >नामनि-१४२२/प्र.क्र.४०८/सेवा-२<
+	elapsed_time:202403071308528017.pdf: 0.000082
+  exec_task: doc_translator_hf 
+    Paras: #81 Sentences: #33
+	[0]  #words: 46 #sentences: 21
+	After generate: 11 MB
+	[0]  #words: 259 #sentences: 53
+	After generate: 11 MB
+	[1]  #words: 262 #sentences: 24
+	After generate: 11 MB
+	[2]  #words: 255 #sentences: 22
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071309071617.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:24 Errors=24 TableEmptyBodyCellError=24
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071309071617.pdf: >शासन निर्णय क्रमांक< >नामनि-१४२२/प्र.क्र.४०६/सेवा-२<
+	elapsed_time:202403071309071617.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #85 Sentences: #16
+	[0]  #words: 18 #sentences: 10
+	After generate: 11 MB
+	[0]  #words: 263 #sentences: 54
+	After generate: 11 MB
+	[1]  #words: 261 #sentences: 25
+	After generate: 11 MB
+	[2]  #words: 261 #sentences: 23
+	After generate: 11 MB
+	[3]  #words: 50 #sentences: 4
+	After generate: 11 MB
+  exec_task: text_writer 
+#docs: 258 #processed: 15
