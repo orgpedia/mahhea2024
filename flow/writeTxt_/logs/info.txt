@@ -1,33 +1,534 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-304
+318
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202401021136215017.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202401021136215017.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Replaced 3:53 >(mangal-cid:10)कार्यक्रम),<  >(PIM SP“),<
+	Replaced 3:89 >(mangal-cid:10)कार्यक्रम),<  >(MIM SPT),<
+  exec_task: pdftable_finder 
+	==Total:10 Errors=10 TableEmptyBodyCellError=10
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202401021136215017.pdf: Unable to find order
+	elapsed_time:202401021136215017.pdf: 0.000046
+  exec_task: doc_translator_hf 
+    Paras: #101 Sentences: #60
+	[0]  #words: 145 #sentences: 24
+	After generate: 4 MB
+	[0]  #words: 257 #sentences: 64
+	After generate: 4 MB
+	[1]  #words: 259 #sentences: 32
+	After generate: 4 MB
+	[2]  #words: 260 #sentences: 24
+	After generate: 4 MB
+	[3]  #words: 214 #sentences: 18
+	After generate: 4 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202401171058559117.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+NotFound sakalmarathi 104
+NotFound sakalmarathi 104
+NotFound sakalmarathi 104
+	202401171058559117.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Replaced 1:52 >जू(sakalmarathi-cid:104),<  >क<
+	Replaced 2:174 >(mangal-cid:10)कार्यक्रम),<  >॥1/।-4/"1/०<
+  exec_task: pdftable_finder 
+	==Total:2 Errors=2 TableEmptyBodyCellError=2
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202401171058559117.pdf: Unable to find order
+	elapsed_time:202401171058559117.pdf: 0.000045
+  exec_task: doc_translator_hf 
+    Paras: #78 Sentences: #55
+	[0]  #words: 117 #sentences: 25
+	After generate: 4 MB
+	[0]  #words: 261 #sentences: 58
+	After generate: 4 MB
+	[1]  #words: 265 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 208 #sentences: 17
+	After generate: 4 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202401191729129517.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202401191729129517.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:213 Errors=213 TableEmptyBodyCellError=213
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202401191729129517.pdf --> para 202401191729129517.pdf:Page_idx: 2 1 <-> [(0, 1), (0, 2)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202402261024316017.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202402261024316017.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:153 Errors=153 TableEmptyBodyCellError=153
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202402261024316017.pdf --> para 202402261024316017.pdf:Page_idx: 2 1 <-> [(0, 1), (0, 2)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403051247008817.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202403051247008817.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051247008817.pdf: >शासन आदेश क्रमांक< >परिवि-२०२४/प्र.क्र.२६/सेवा-३<
+	elapsed_time:202403051247008817.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #105 Sentences: #126
+	[0]  #words: 259 #sentences: 102
+	After generate: 5 MB
+	[1]  #words: 9 #sentences: 1
+	After generate: 5 MB
+	[0]  #words: 258 #sentences: 65
+	After generate: 5 MB
+	[1]  #words: 258 #sentences: 31
+	After generate: 5 MB
+	[2]  #words: 263 #sentences: 24
+	After generate: 5 MB
+	[3]  #words: 260 #sentences: 21
+	After generate: 5 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403051440390917.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202403051440390917.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051440390917.pdf: >शासन ननर्णय क्रमांक< >बैठक-२८२३/प्र.क्र.४३०/आरोग्य-७<
+	elapsed_time:202403051440390917.pdf: 0.000074
+  exec_task: doc_translator_hf 
+    Paras: #58 Sentences: #0
+	[0]  #words: 260 #sentences: 46
+	After generate: 5 MB
+	[1]  #words: 250 #sentences: 20
+	After generate: 5 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403051440453917.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202403051440453917.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051440453917.pdf: >शासन ननर्णय क्रमांक< >प्रशामा-५६२३/प्र.क्र.५३५/आरोग्य-७<
+	elapsed_time:202403051440453917.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #53 Sentences: #13
+	[0]  #words: 131 #sentences: 13
+	After generate: 5 MB
+	[0]  #words: 265 #sentences: 58
+	After generate: 5 MB
+	[1]  #words: 213 #sentences: 20
+	After generate: 5 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403051440518817.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202403051440518817.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:6 Errors=6 TableEmptyBodyCellError=6
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051440518817.pdf: >शासन निर्णय क्रमांक< >बियुडी-१३२३/प्र.क्र.२७२/आरोग्य-७<
+	elapsed_time:202403051440518817.pdf: 0.000080
+  exec_task: doc_translator_hf 
+    Paras: #97 Sentences: #68
+	[0]  #words: 110 #sentences: 32
+	After generate: 5 MB
+	[0]  #words: 260 #sentences: 58
+	After generate: 5 MB
+	[1]  #words: 258 #sentences: 27
+	After generate: 5 MB
+	[2]  #words: 257 #sentences: 22
+	After generate: 5 MB
+	[3]  #words: 128 #sentences: 10
+	After generate: 5 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403051440563617.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+	202403051440563617.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:6 Errors=6 TableEmptyBodyCellError=6
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051440563617.pdf: >शासन निर्णय क्रमांक< >बीयुडी-१३२३/प्र.क्र.२७३/आरोग्य-७<
+	elapsed_time:202403051440563617.pdf: 0.000082
+  exec_task: doc_translator_hf 
+    Paras: #97 Sentences: #49
+	[0]  #words: 106 #sentences: 24
+	After generate: 5 MB
+	[0]  #words: 260 #sentences: 58
+	After generate: 5 MB
+	[1]  #words: 262 #sentences: 27
+	After generate: 5 MB
+	[2]  #words: 263 #sentences: 22
+	After generate: 5 MB
+	[3]  #words: 103 #sentences: 8
+	After generate: 5 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151216022717.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
-#docs: 304 #processed: 10
+	202403052100190017.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 8: सुरक्षा-२०२४/प्र.क्र.६१/आरोग्य-४ ==शासन निर्णय क्रमांकः सुरक्षा-२०२४/ प्र.क्र.६१/ आरोग्य-४
+	extract_order_number:202403052100190017.pdf: >शासन निर्णय क्रमांक< >सुरक्षा-२०२४/प्र.क्र.६१/आरोग्य-४<
+	elapsed_time:202403052100190017.pdf: 0.000945
+  exec_task: doc_translator_hf 
+    Paras: #33 Sentences: #0
+	[0]  #words: 257 #sentences: 32
+	After generate: 5 MB
+	[1]  #words: 59 #sentences: 4
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121643066817.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121643066817.pdf: >शासन ननर्णय क्रमांक< >पुरमा-१४२३/प्र.क्र.२६०/आरोग्य-८<
+	elapsed_time:202403121643066817.pdf: 0.000081
+  exec_task: doc_translator_hf 
+    Paras: #68 Sentences: #0
+	[0]  #words: 260 #sentences: 40
+	After generate: 5 MB
+	[1]  #words: 259 #sentences: 23
+	After generate: 5 MB
+	[2]  #words: 188 #sentences: 14
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151106454317.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+	Replaced 0:15 >(nirmalaui-cid:230)(nirmalaui-cid:269)(nirmalaui-cid:265)(nirmalaui-cid:312)(nirmalaui-cid:142)(nirmalaui-cid:302)(nirmalaui-cid:286)(nirmalaui-cid:302)(nirmalaui-cid:267)(nirmalaui-cid:248)(nirmalaui-cid:301)-(nirmalaui-cid:366)(couriernew-cid:17)(nirmalaui-cid:354)(couriernew-cid:17)(nirmalaui-cid:231)(nirmalaui-cid:275)(nirmalaui-cid:316)(nirmalaui-cid:438)-(nirmalaui-cid:860)<  >अपद/हानका-२०२२/प्र.क्र.१३१/जआराग्य-५<
+	Tesseract on page: 4
+	Tesseract on page: 5
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151106454317.pdf: Unable to find order
+	elapsed_time:202403151106454317.pdf: 0.000057
+  exec_task: doc_translator_hf 
+    Paras: #36 Sentences: #32
+	[0]  #words: 136 #sentences: 16
+	After generate: 5 MB
+	[0]  #words: 263 #sentences: 39
+	After generate: 5 MB
+	[1]  #words: 76 #sentences: 6
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151106507217.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151106507217.pdf: Unable to find order
+	elapsed_time:202403151106507217.pdf: 0.000055
+  exec_task: doc_translator_hf 
+    Paras: #45 Sentences: #0
+	[0]  #words: 258 #sentences: 48
+	After generate: 5 MB
+	[1]  #words: 51 #sentences: 4
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151215550117.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151215550117.pdf: >शासन निर्णय क्रमांक< >राकावियो-२०२२/प्र.क्र.१३४/सेवा-१<
+	elapsed_time:202403151215550117.pdf: 0.000073
+  exec_task: doc_translator_hf 
+    Paras: #44 Sentences: #0
+	[0]  #words: 262 #sentences: 46
+	After generate: 5 MB
+	[1]  #words: 126 #sentences: 10
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+NotFound sakalmarathi 288
+NotFound sakalmarathi 288
+NotFound sakalmarathi 288
+NotFound sakalmarathi 271
+NotFound sakalmarathi 271
+NotFound sakalmarathi 271
+NotFound sakalmarathi 231
+NotFound sakalmarathi 231
+NotFound sakalmarathi 231
+	202403151216022717.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+	Replaced 16:95 >डॉ.(sakalmarathi-cid:288)ुवराज<  >२) 2<
+	Replaced 19:108 >(sakalmarathi-cid:271)स्तिन<  >ISaNC<
+	Replaced 22:55 >अड(sakalmarathi-cid:231),<  >JINN,<
+  exec_task: pdftable_finder 
+	==Total:729 Errors=729 TableEmptyBodyCellError=729
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151216022717.pdf: >शासन निर्णय क्रमांक< >संआसे-२०२४/प्र.क्र.१६/सेवा-१<
+	elapsed_time:202403151216022717.pdf: 0.000093
+  exec_task: doc_translator_hf 
+    Paras: #68 Sentences: #0
+	[0]  #words: 263 #sentences: 51
+	After generate: 5 MB
+	[1]  #words: 259 #sentences: 26
+	After generate: 5 MB
+	[2]  #words: 24 #sentences: 2
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+NotFound sakalmarathi 104
+NotFound sakalmarathi 104
+NotFound sakalmarathi 104
+	202403151808081117.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+	Replaced 1:36 >जू(sakalmarathi-cid:104),<  >Nats<
+  exec_task: pdftable_finder 
+	==Total:4 Errors=4 TableEmptyBodyCellError=4
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151808081117.pdf: Unable to find order
+	elapsed_time:202403151808081117.pdf: 0.000069
+  exec_task: doc_translator_hf 
+    Paras: #84 Sentences: #49
+	[0]  #words: 111 #sentences: 24
+	After generate: 5 MB
+	[0]  #words: 260 #sentences: 58
+	After generate: 5 MB
+	[1]  #words: 259 #sentences: 27
+	After generate: 5 MB
+	[2]  #words: 237 #sentences: 20
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151808132917.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:5 Errors=5 TableEmptyBodyCellError=5
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151808132917.pdf: Unable to find order
+	elapsed_time:202403151808132917.pdf: 0.000042
+  exec_task: doc_translator_hf 
+    Paras: #80 Sentences: #56
+	[0]  #words: 95 #sentences: 27
+	After generate: 5 MB
+	[0]  #words: 263 #sentences: 59
+	After generate: 5 MB
+	[1]  #words: 264 #sentences: 28
+	After generate: 5 MB
+	[2]  #words: 198 #sentences: 16
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151808177317.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:4 Errors=4 TableEmptyBodyCellError=4
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151808177317.pdf: >शासन निर्णय क्रमांक< >बियुडी-१३२३/प्र.क्र.२७२/आरोग्य-७<
+	elapsed_time:202403151808177317.pdf: 0.000100
+  exec_task: doc_translator_hf 
+    Paras: #93 Sentences: #70
+	[0]  #words: 106 #sentences: 32
+	After generate: 5 MB
+	[0]  #words: 257 #sentences: 58
+	After generate: 5 MB
+	[1]  #words: 257 #sentences: 27
+	After generate: 5 MB
+	[2]  #words: 261 #sentences: 22
+	After generate: 5 MB
+	[3]  #words: 63 #sentences: 5
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151821002217.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:6 Errors=6 TableEmptyBodyCellError=6
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151821002217.pdf: Unable to find order
+	elapsed_time:202403151821002217.pdf: 0.000044
+  exec_task: doc_translator_hf 
+    Paras: #73 Sentences: #6
+	[0]  #words: 14 #sentences: 5
+	After generate: 5 MB
+	[0]  #words: 261 #sentences: 53
+	After generate: 5 MB
+	[1]  #words: 257 #sentences: 24
+	After generate: 5 MB
+	[2]  #words: 119 #sentences: 10
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161127284817.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:6 Errors=6 TableEmptyBodyCellError=6
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161127284817.pdf: >शासन निर्णय क्रमांक< >बीयुडी-१३२३/प्र.क्र.२७३/आरोग्य-७<
+	elapsed_time:202403161127284817.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #100 Sentences: #52
+	[0]  #words: 109 #sentences: 25
+	After generate: 5 MB
+	[0]  #words: 260 #sentences: 60
+	After generate: 5 MB
+	[1]  #words: 258 #sentences: 26
+	After generate: 5 MB
+	[2]  #words: 261 #sentences: 22
+	After generate: 5 MB
+	[3]  #words: 128 #sentences: 10
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403181505107917.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+	Replaced 0:22 >(nirmalaui-cid:302)(nirmalaui-cid:286)(nirmalaui-cid:302)(nirmalaui-cid:267)(nirmalaui-cid:248)(nirmalaui-cid:301)-(nirmalaui-cid:230)(nirmalaui-cid:269)(nirmalaui-cid:265)(nirmalaui-cid:312)(couriernew-cid:18)(nirmalaui-cid:366)(couriernew-cid:17)(nirmalaui-cid:354)(couriernew-cid:17)(nirmalaui-cid:231)(nirmalaui-cid:275)(nirmalaui-cid:316)(nirmalaui-cid:438)-<  >[॥हरनका-२०१८/ अपद/प्र.क्र.२३४/आरग्य-<
+  exec_task: pdftable_finder 
+	==Total:15 Errors=15 TableEmptyBodyCellError=15
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403181505107917.pdf: Unable to find order
+	elapsed_time:202403181505107917.pdf: 0.000055
+  exec_task: doc_translator_hf 
+    Paras: #47 Sentences: #69
+	[0]  #words: 171 #sentences: 42
+	After generate: 5 MB
+	[0]  #words: 262 #sentences: 49
+	After generate: 5 MB
+	[1]  #words: 76 #sentences: 7
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403181505218817.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+	Replaced 0:17 >(nirmalaui-cid:407)(nirmalaui-cid:302)(nirmalaui-cid:267)(nirmalaui-cid:248)(nirmalaui-cid:301)-२०१८/(nirmalaui-cid:230)(nirmalaui-cid:269)(nirmalaui-cid:265)(nirmalaui-cid:312)(mangal-cid:17)(nirmalaui-cid:366)(mangal-cid:16)(nirmalaui-cid:354)(mangal-cid:16)२५९/(nirmalaui-cid:231)(nirmalaui-cid:275)(nirmalaui-cid:316)(nirmalaui-cid:438)-५<  >क्षानका-२०१८/ अपदा/्र.क्र.२५९/ जारग्य-५<
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+	Tesseract on page: 11
+	Tesseract on page: 12
+	Tesseract on page: 13
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403181505218817.pdf: Unable to find order
+	elapsed_time:202403181505218817.pdf: 0.000044
+  exec_task: doc_translator_hf 
+    Paras: #36 Sentences: #0
+	[0]  #words: 261 #sentences: 46
+	After generate: 5 MB
+	[1]  #words: 9 #sentences: 1
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403181505272817.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:16 Errors=16 TableEmptyBodyCellError=16
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403181505272817.pdf: Unable to find order
+	elapsed_time:202403181505272817.pdf: 0.000039
+  exec_task: doc_translator_hf 
+    Paras: #42 Sentences: #14
+	[0]  #words: 34 #sentences: 11
+	After generate: 5 MB
+	[0]  #words: 265 #sentences: 46
+	After generate: 5 MB
+	[1]  #words: 130 #sentences: 11
+	After generate: 5 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403181505333217.pdf missing_cmaps: nirmalaui, couriernew, mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:6 Errors=6 TableEmptyBodyCellError=6
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403181505333217.pdf: Unable to find order
+	elapsed_time:202403181505333217.pdf: 0.000043
+  exec_task: doc_translator_hf 
+    Paras: #46 Sentences: #19
+	[0]  #words: 69 #sentences: 15
+	After generate: 5 MB
+	[0]  #words: 263 #sentences: 51
+	After generate: 5 MB
+	[1]  #words: 86 #sentences: 7
+	After generate: 5 MB
+  exec_task: text_writer 
+#docs: 318 #processed: 24
