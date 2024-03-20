@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-320
+321
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -24,52 +24,25 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202402261024316017.pdf --> para 202402261024316017.pdf:Page_idx: 2 1 <-> [(0, 1), (0, 2)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-NotFound sakalmarathi 340
-NotFound sakalmarathi 340
-NotFound sakalmarathi 340
   exec_task: word_recognizer 
-	Replaced 0:132 >पुरस्कृ(sakalmarathi-cid:340)<  >4 N Ni ANI<
   exec_task: pdftable_finder 
-	==Total:0 Errors=0 
+	==Total:5 Errors=5 TableEmptyBodyCellError=5
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403161127357717.pdf: Unable to find order
-	elapsed_time:202403161127357717.pdf: 0.000042
+	extract_order_number:202403161127504017.pdf: >शासन निर्णय क्रमांक< >बियुडी-१३२४/प्र.क्र.१२४/आरोग्य-७<
+	elapsed_time:202403161127504017.pdf: 0.000085
   exec_task: doc_translator_hf 
-    Paras: #94 Sentences: #16
-	[0]  #words: 92 #sentences: 10
-	After generate: 2 MB
-	[0]  #words: 261 #sentences: 62
-	After generate: 3 MB
-	[1]  #words: 259 #sentences: 27
-	After generate: 3 MB
-	[2]  #words: 266 #sentences: 23
-	After generate: 3 MB
-	[3]  #words: 52 #sentences: 4
-	After generate: 3 MB
+    Paras: #107 Sentences: #125
+	[0]  #words: 146 #sentences: 34
+	After generate: 5 MB
+	[0]  #words: 259 #sentences: 64
+	After generate: 5 MB
+	[1]  #words: 263 #sentences: 31
+	After generate: 5 MB
+	[2]  #words: 267 #sentences: 25
+	After generate: 5 MB
+	[3]  #words: 148 #sentences: 13
+	After generate: 5 MB
   exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:6 Errors=6 TableEmptyBodyCellError=6
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403161127402117.pdf: >शासन निर्णय क्रमांक< >बियुडी-१३२४/प्र.क्र.१२८/आरोग्य-७<
-	elapsed_time:202403161127402117.pdf: 0.000084
-  exec_task: doc_translator_hf 
-    Paras: #93 Sentences: #15
-	[0]  #words: 84 #sentences: 11
-	After generate: 3 MB
-	[0]  #words: 260 #sentences: 60
-	After generate: 3 MB
-	[1]  #words: 266 #sentences: 30
-	After generate: 3 MB
-	[2]  #words: 260 #sentences: 23
-	After generate: 3 MB
-	[3]  #words: 27 #sentences: 2
-	After generate: 3 MB
-  exec_task: text_writer 
-#docs: 320 #processed: 4
+#docs: 321 #processed: 3
