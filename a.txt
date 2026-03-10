@@ -1,0 +1,477 @@
+uv run make -C flow/writeTxt_
+make[1]: Entering directory '/home/runner/work/mahrev2024/mahrev2024/flow/writeTxt_'
+uv run python src/writeTxt.py input output
+src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
+4144
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403131806082619.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:68 Errors=68 TableEmptyBodyCellError=68
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403131806082619.pdf --> para 202403131806082619.pdf:Page_idx: 0 2 <-> [(0, 13)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403181638378519.pdf missing_cmaps: sakalmarathinormal, dvotsurekhmrnormal, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:74 Errors=74 TableEmptyBodyCellError=74
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403181638378519.pdf --> para 202403181638378519.pdf:Page_idx: 1 3 <-> [(0, 1), (1, 3), (1, 4), (2, 5)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403271625233519.pdf missing_cmaps: sakalmarathinormal, dvotsurekhmrnormal, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:6 Errors=6 TableEmptyBodyCellError=6
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403271625233519.pdf --> para 202403271625233519.pdf:Page_idx: 0 6 <-> [(0, 17)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403281220430319.pdf missing_cmaps: sakalmarathinormal, dvotsurekhmrnormal, mangal, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403281220430319.pdf --> para 202403281220430319.pdf:Page_idx: 0 1 <-> [(0, 16), (0, 17)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403281525440319.pdf missing_cmaps: mangal, sakalmarathinormal, dvotsurekhmrbold, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:8 Errors=8 TableEmptyBodyCellError=8
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403281525440319.pdf --> para 202403281525440319.pdf:Page_idx: 1 3 <-> [(0, 3)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403281707264519.pdf missing_cmaps: mangal, sakalmarathinormal, dvotsurekhmrbold, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:12 Errors=12 TableEmptyBodyCellError=12
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403281707264519.pdf --> para 202403281707264519.pdf:Page_idx: 1 4 <-> [(0, 8)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403281710019819.pdf missing_cmaps: mangal, sakalmarathinormal, dvotsurekhmrbold, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:4 Errors=4 TableEmptyBodyCellError=4
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403281710019819.pdf --> para 202403281710019819.pdf:Page_idx: 1 4 <-> [(0, 3)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403281712521519.pdf missing_cmaps: mangal, sakalmarathinormal, dvotsurekhmrbold, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:6 Errors=6 TableEmptyBodyCellError=6
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403281712521519.pdf --> para 202403281712521519.pdf:Page_idx: 1 4 <-> [(0, 2)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403281715217919.pdf missing_cmaps: mangal, sakalmarathinormal, dvotsurekhmrbold, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:22 Errors=22 TableEmptyBodyCellError=22
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403281715217919.pdf --> para 202403281715217919.pdf:Page_idx: 1 4 <-> [(0, 3)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202408231529296219.pdf missing_cmaps: mangal, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+  exec_task: pdftable_finder 
+	==Total:22 Errors=22 TableEmptyBodyCellError=22
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202408231529296219.pdf --> para 202408231529296219.pdf:Page_idx: 0 1 <-> [(0, 13), (0, 14)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202411271716499019.pdf missing_cmaps: mangal, dvotsurekhmr, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:7 Errors=7 TableEmptyBodyCellError=7
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202411271716499019.pdf --> para 202411271716499019.pdf:Page_idx: 0 1 <-> [(0, 10), (0, 11)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202412201535443819.pdf missing_cmaps: mangal, dvotsurekhmr, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:6 Errors=6 TableEmptyBodyCellError=6
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202412201535443819.pdf --> para 202412201535443819.pdf:Page_idx: 0 1 <-> [(0, 13), (0, 14)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202503031833000719.pdf missing_cmaps: mangal, dvotsurekhmr, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202503031833000719.pdf --> para 202503031833000719.pdf:Page_idx: 0 1 <-> [(0, 14), (0, 15)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202503031837541919.pdf missing_cmaps: mangal, dvotsurekhmr, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202503031837541919.pdf --> para 202503031837541919.pdf:Page_idx: 0 1 <-> [(0, 14), (0, 15)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202503121600075019.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+  exec_task: pdftable_finder 
+	==Total:22 Errors=22 TableEmptyBodyCellError=22
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202503121600075019.pdf --> para 202503121600075019.pdf:Page_idx: 1 1 <-> [(0, 7), (0, 8)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202503261808470119.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:17 Errors=17 TableEmptyBodyCellError=17
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202503261808470119.pdf --> para 202503261808470119.pdf:Page_idx: 3 5 <-> [(0, 0), (1, 1), (3, 2)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202504091352088919.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+	Tesseract on page: 11
+  exec_task: pdftable_finder 
+	==Total:2 Errors=2 TableEmptyBodyCellError=2
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202504091352088919.pdf --> para 202504091352088919.pdf:Page_idx: 10 1 <-> [(0, 0), (0, 1)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202505191321580719.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:408 Errors=408 TableEmptyBodyCellError=408
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202505191321580719.pdf --> para 202505191321580719.pdf:Page_idx: 1 1 <-> [(0, 2), (0, 3)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202505231606164319.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:7 Errors=7 TableEmptyBodyCellError=7
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202505231606164319.pdf --> para 202505231606164319.pdf:Page_idx: 1 2 <-> [(0, 4)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202505231616280319.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:4 Errors=4 TableEmptyBodyCellError=4
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202505231616280319.pdf --> para 202505231616280319.pdf:Page_idx: 1 1 <-> [(0, 1), (0, 2)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202506201620242619.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202506201620242619.pdf --> para 202506201620242619.pdf:Page_idx: 0 1 <-> [(0, 7), (0, 8)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202506201623464419.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202506201623464419.pdf --> para 202506201623464419.pdf:Page_idx: 0 1 <-> [(0, 7), (0, 8)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202507231505384819.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f1, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:4 Errors=4 TableEmptyBodyCellError=4
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202507231505384819.pdf --> para 202507231505384819.pdf:Page_idx: 1 1 <-> [(0, 2), (0, 3)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202507251806500619.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f1, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:20 Errors=20 TableEmptyBodyCellError=20
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202507251806500619.pdf --> para 202507251806500619.pdf:Page_idx: 0 1 <-> [(0, 7), (0, 8)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202507311718427019.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f1, dvotyogeshmrnormal, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+  exec_task: pdftable_finder 
+	==Total:61 Errors=61 TableEmptyBodyCellError=61
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202507311718427019.pdf --> para 202507311718427019.pdf:Page_idx: 2 1 <-> [(0, 1), (0, 2)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202508191431084219.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f2, f1, dvotyogeshmrnormal, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202508191431084219.pdf --> para 202508191431084219.pdf:Page_idx: 0 1 <-> [(0, 18), (0, 19)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202509041209590619.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f2, f1, dvotyogeshmrnormal, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:22 Errors=22 TableEmptyBodyCellError=22
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202509041209590619.pdf --> para 202509041209590619.pdf:Page_idx: 2 1 <-> [(0, 2), (0, 3)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202509121725540319.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f2, f1, dvotyogeshmrnormal, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, nirmalaui, dvotyogeshmr, dvotsurekhmrnormal, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Replaced 1:3 >(nirmalaui-cid:240)(nirmalaui-cid:270)(nirmalaui-cid:240)(nirmalaui-cid:277)(nirmalaui-cid:260)(nirmalaui-cid:305)-३४२५/(nirmalaui-cid:366).(nirmalaui-cid:354).११८/(nirmalaui-cid:270)-१०<  >एफ एलड1-3425/प्र.क्र.118/फ-10<
+	Replaced 2:3 >(nirmalaui-cid:240)(nirmalaui-cid:270)(nirmalaui-cid:240)(nirmalaui-cid:277)(nirmalaui-cid:260)(nirmalaui-cid:305)-३४२५/(nirmalaui-cid:366).(nirmalaui-cid:354).११८/(nirmalaui-cid:270)-१०<  >एफ एलडा-3425/प्रक्र.118/फ-10<
+	Replaced 3:3 >(nirmalaui-cid:240)(nirmalaui-cid:270)(nirmalaui-cid:240)(nirmalaui-cid:277)(nirmalaui-cid:260)(nirmalaui-cid:305)-३४२५/(nirmalaui-cid:366).(nirmalaui-cid:354).११८/(nirmalaui-cid:270)-१०<  >एफ एलड1-3425/प्र.क्र.118/फ-10<
+	Replaced 4:3 >(nirmalaui-cid:240)(nirmalaui-cid:270)(nirmalaui-cid:240)(nirmalaui-cid:277)(nirmalaui-cid:260)(nirmalaui-cid:305)-३४२५/(nirmalaui-cid:366).(nirmalaui-cid:354).११८/(nirmalaui-cid:270)-१०<  >एफ एलडा-3425/प्रक्र.118/फ-10<
+  exec_task: pdftable_finder 
+	==Total:5 Errors=5 TableEmptyBodyCellError=5
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202509121725540319.pdf --> para 202509121725540319.pdf:Page_idx: 1 2 <-> [(0, 7)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202511061555482419.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f2, f1, dvotyogeshmrnormal, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, nirmalaui, dvotyogeshmr, dvotsurekhmrnormal, nirmalauibold, timesnewromanpsboldmt
+  exec_task: word_recognizero
+esseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+  exec_task: pdftable_finder 
+	==Total:222 Errors=222 TableEmptyBodyCellError=222
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202511061555482419.pdf --> para 202511061555482419.pdf:Page_idx: 4 1 <-> [(0, 0), (0, 1)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202511142131529919.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f2, f1, dvotyogeshmrnormal, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, nirmalaui, dvotyogeshmr, dvotsurekhmrnormal, nirmalauibold, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:4 Errors=4 TableEmptyBodyCellError=4
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202511142131529919.pdf --> para 202511142131529919.pdf:Page_idx: 0 1 <-> [(0, 14), (0, 15)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202512172208002319.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f2, f1, dvotyogeshmrnormal, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, nirmalaui, dvotyogeshmr, dvotsurekhmrnormal, nirmalauibold, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:3 Errors=3 TableEmptyBodyCellError=3
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202512172208002319.pdf --> para 202512172208002319.pdf:Page_idx: 1 1 <-> [(0, 0), (0, 1)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202512261646191119.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f2, f1, dvotyogeshmrnormal, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, nirmalaui, dvotyogeshmr, dvotsurekhmrnormal, nirmalauibold, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Replaced 1:309 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 1:310 >२(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >24en|<
+	Replaced 2:295 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 2:296 >३(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >उपक |<
+	Replaced 3:214 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 3:215 >४(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >4पक|<
+	Replaced 4:275 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 4:276 >५(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >०७५०७<
+	Replaced 5:338 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 5:339 >६(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >619<
+	Replaced 6:446 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 6:447 >७(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >7पक|<
+	Replaced 7:557 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 7:558 >८(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >8पक |<
+	Replaced 8:208 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 8:209 >९(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >9पक|<
+	Replaced 9:296 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 9:297 >१०(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >10151<
+	Replaced 10:299 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 10:300 >११(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >114701<
+	Replaced 11:204 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 11:205 >१२(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >12401<
+	Replaced 12:161 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 12:162 >१३(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >13पक<
+	Replaced 13:225 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 13:226 >१४(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >144<
+	Replaced 14:211 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 14:212 >१५(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >15411<
+	Replaced 15:114 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 15:115 >१६(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >164151<
+	Tesseract on page: 16
+	Replaced 17:154 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 17:155 >१८(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >185<
+	Replaced 18:130 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 18:131 >१९(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >19451<
+	Replaced 19:112 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 19:113 >२०(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >20151<
+	Replaced 20:154 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 20:155 >२१(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >21451<
+	Replaced 21:72 >(dvotsurekh-cid:105)(dvotsurekh-cid:128)(dvotsurekh-cid:205)(dvotsurekh-cid:95)<  >| LO<
+	Replaced 21:73 >२२(dvotsurekh-cid:105)(dvotsurekh-cid:133)(dvotsurekh-cid:84)(dvotsurekh-cid:125)<  >224]<
+  exec_task: pdftable_finder 
+	==Total:2669 Errors=2669 TableEmptyBodyCellError=2669
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202512261646191119.pdf --> para 202512261646191119.pdf:Page_idx: 2 3 <-> [(0, 0), (1, 5)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202602131606014119.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f2, f1, dvotyogeshmrnormal, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, nirmalaui, dvotyogeshmr, dvotsurekhmrnormal, nirmalauibold, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:78 Errors=78 TableEmptyBodyCellError=78
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202602131606014119.pdf --> para 202602131606014119.pdf:Page_idx: 2 1 <-> [(0, 1), (0, 2)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202602161727190619.pdf missing_cmaps: mangal, dvotsurekhmr, dvotsurekhbold, f2, f1, dvotyogeshmrnormal, dvotsurekh, sakalmarathinormal, dvotsurekhmrbold, f3, nirmalaui, dvotyogeshmr, dvotsurekhmrnormal, nirmalauibold, timesnewromanpsboldmt
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:207 Errors=207 TableEmptyBodyCellError=207
+A new version of the following files was downloaded from https://huggingface.co/ai4bharat/indictrans2-indic-en-dist-200M:
+- configuration_indictrans.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/ai4bharat/indictrans2-indic-en-dist-200M:
+- modeling_indictrans.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+make[1]: *** [makefile:9: all] Error 1
+make: *** [makefile:44: flow/writeTxt_] Error 1:
